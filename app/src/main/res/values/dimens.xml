@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sPadding">4dp</dimen>
+    <dimen name="mPadding">8dp</dimen>
+    <dimen name="lPadding">12dp</dimen>
+    <dimen name="xlPadding">16dp</dimen>
+
+    <dimen name="sMargin">4dp</dimen>
+    <dimen name="mMargin">8dp</dimen>
+    <dimen name="lMargin">12dp</dimen>
+    <dimen name="xlMargin">16dp</dimen>
+    <dimen name="_xlMargin">-16dp</dimen>
+    <dimen name="xxlMargin">32dp</dimen>
+    <dimen name="xxxlMargin">64dp</dimen>
+
+
+    <dimen name="sTextSize">4sp</dimen>
+    <dimen name="mTextSize">8sp</dimen>
+    <dimen name="lTextSize">12sp</dimen>
+    <dimen name="xlTextSize">16sp</dimen>
+    <dimen name="xxlTextSize">20sp</dimen>
+    <dimen name="xxxlTextSize">25sp</dimen>
+    <dimen name="xxxxlTextSize">32sp</dimen>
+
+</resources>

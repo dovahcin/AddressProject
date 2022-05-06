@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/profileFragment">
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.address.presentation.features.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profileFragment_to_mapsFragment2"
+            app:destination="@id/mapsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addressesFragment"
+        android:name="com.example.address.presentation.features.address.AddressFragment"
+        android:label="fragment_addresses"
+        tools:layout="@layout/fragment_addresses" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.example.address.presentation.features.map.MapsFragment"
+        android:label="MapsFragment" >
+        <argument
+            android:name="profileInfo"
+            app:argType="com.example.address.domain.RegisterAddress"
+            app:nullable="false" />
+        <action
+            android:id="@+id/action_mapsFragment_to_addressesFragment"
+            app:destination="@id/addressesFragment" />
+    </fragment>
+</navigation>

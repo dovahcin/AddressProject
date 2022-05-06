@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AddressApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="persianName">نام</string>
+    <string name="persianLastName">نام خانوادگی</string>
+    <string name="persianPhoneNum">تلفن همراه</string>
+    <string name="persianHomeNum">تلفن ثابت</string>
+    <string name="addressPersian">آدرس دقیق</string>
+    <string name="genderPersian">جنسیت</string>
+    <string name="radioFemale">خانم</string>
+    <string name="radioMale">آقا</string>
+    <string name="descriptionFormPersian">لطفا اطلاعات ورود خود را وارد نمایید</string>
+    <string name="nextStepPersian">مرحله بعد</string>
+    <string name="accept_location_persian">تایید موقعیت</string>
+    <string name="essential_for_filling_persian">*</string>
+    <string name="show_all_addresses">نمایش تمامی آدرس ها</string>
+    <string name="register_persian">ثبت نام</string>
+    <string name="persian_address_fill">آدرس دقیق</string>
+    <string name="persian_location_on_map">موقعیت روی نقشه</string>
+    <string name="persian_choose_your_location">موقعیت مورد نظر خودرا روی نقشه مشخص کنید.</string>
+</resources>
